@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #292929;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#content .section {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+@media only screen and (max-width: 600px) {
+  #content .section {
+    padding-top: 50px;
+  }
+}
+#content .section #title {
+  font-size: 6em;
+  color: white;
+  font-family: "Montserrat Subrayada", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  #content .section #title {
+    font-size: 2em;
+  }
+}
+
+#about-me {
+  color: white;
+  width: 1000px;
+  max-width: 70%;
+}
+@media only screen and (max-width: 600px) {
+  #about-me {
+    font-size: 0.75em;
+  }
+}
+
+#navigation a {
+  color: grey;
+}
+
+.work-example {
+  font-family: "Montserrat", sans-serif;
+}
+.work-example #header {
+  font-size: 2em;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .work-example #header {
+    font-size: 1.5em;
+  }
+}
+.work-example #date {
+  font-size: 0.75em;
+  color: grey;
+}
+.work-example a {
+  position: absolute;
+  font-size: 1em;
+  color: grey;
+}
+.work-example #text {
+  width: 800px;
+  font-size: 1em;
+  color: white;
+  max-width: 70%;
+}
+@media only screen and (max-width: 600px) {
+  .work-example #text {
+    font-size: 0.75em;
+  }
+}
+.work-example #quote {
+  width: 800px;
+  color: grey;
+  font-size: 1em;
+  margin-left: 50px;
+  max-width: 70%;
+}
+@media only screen and (max-width: 600px) {
+  .work-example #quote {
+    font-size: 0.75em;
+  }
+}
+.work-example #list-header {
+  font-size: 1em;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .work-example #list-header {
+    font-size: 0.75em;
+  }
+}
+.work-example ul {
+  font-size: 1em;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .work-example ul {
+    font-size: 0.75em;
+  }
+}
+
+#hamburger-button {
+  z-index: 2;
+  color: white;
+  top: 0;
+  left: 0;
+  position: fixed;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+}
+#hamburger-button i {
+  font-size: 35px;
+}
+
+#hamburger {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #4F5D6E;
+}
+#hamburger #hamburger-content {
+  width: 100%;
+  margin-top: 100px;
+}
+#hamburger #hamburger-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger-not-displayed {
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.hamburger-displayed {
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */
