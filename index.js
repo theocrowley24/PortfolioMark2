@@ -46,7 +46,7 @@ fetch("https://admin.theocrowley.co.uk/work-experiences").then(response => respo
 
     for (let i = 0; i < data.length; i++) {
         let workExample = htmlToElement(`<div class='work-example'>
-                                            <p id='header'>${data[i].companyName || "" }</p>
+                                            <p id='header'># ${data[i].companyName || "" }</p>
                                             <p id='date'>${data[i].date || "" }</p>
                                             <p id='text'>
                                                 ${data[i].description || "" }
