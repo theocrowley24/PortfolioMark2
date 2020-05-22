@@ -38,8 +38,9 @@ body {
   font-family: "Montserrat Subrayada", sans-serif;
 }
 @media only screen and (max-width: 800px) {
-  #content .section #title {
-    font-size: 2em;
+  #content .section .title {
+    max-width: 70%;
+    font-size: 3em;
   }
 }
 
