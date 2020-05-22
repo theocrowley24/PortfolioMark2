@@ -43,7 +43,8 @@ body {
             font-family: 'Montserrat Subrayada', sans-serif;
 
             @media only screen and (max-width: $mobileThreshold) {
-                font-size: 2em; 
+                max-width: 70%;
+                font-size: 3em; 
             }    
         }
     }
