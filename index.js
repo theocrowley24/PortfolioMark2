@@ -27,7 +27,7 @@ hamburgerButton.addEventListener('click', function (event) {
 let nameElement = document.getElementById('name-title');
 let nameDesc = document.getElementById('about-me');
 
-fetch("https://209.97.186.249:1337/main").then(response => response.json()).then(data => {
+fetch("https://admin.theocrowley.co.uk/main").then(response => response.json()).then(data => {
     nameElement.innerHTML = data.name;
     nameDesc.innerHtml = data.titleDesc;
 });
@@ -41,7 +41,7 @@ function htmlToElement(html) {
     return template.content.firstChild;
 }
 
-fetch("https://209.97.186.249:1337/work-experiences").then(response => response.json()).then(data => {
+fetch("https://admin.theocrowley.co.uk/work-experiences").then(response => response.json()).then(data => {
     
 
     for (let i = 0; i < data.length; i++) {
