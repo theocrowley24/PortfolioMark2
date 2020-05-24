@@ -3,6 +3,7 @@
 * Hamburger menu
 */
 
+/*
 let hamburgerButton = document.getElementById('hamburger-button');
 let hamburgerMenu = document.getElementById('hamburger');
 
@@ -19,6 +20,7 @@ hamburgerButton.addEventListener('click', function (event) {
         showingHamburger= true;
     }
 });
+*/
 
 /*
 * API calls
