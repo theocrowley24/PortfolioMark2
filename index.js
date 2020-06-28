@@ -30,7 +30,7 @@ let nameElement = document.getElementById('name-title');
 let nameDesc = document.getElementById('about-me');
 
 fetch("https://admin.theocrowley.co.uk/main").then(response => response.json()).then(data => {
-    nameElement.innerHTML = data.name;
+    //nameElement.innerHTML = data.name;
     nameDesc.innerHtml = data.titleDesc;
 });
 
