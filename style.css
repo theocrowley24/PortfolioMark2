@@ -101,13 +101,13 @@ body {
 #about-me {
   color: white;
   width: 1000px;
-  max-width: 70%;
+  max-width: 85vw;
   font-weight: lighter;
   font-size: 2em;
 }
 @media only screen and (max-width: 500px) {
   #about-me {
-    font-size: 0.75em;
+    font-size: 1.25em;
   }
 }
 
@@ -119,6 +119,7 @@ body {
 
 .work-example {
   font-family: "Montserrat", sans-serif;
+  max-width: 85vw;
 }
 .work-example #header {
   font-size: 2em;
@@ -127,12 +128,27 @@ body {
 }
 @media only screen and (max-width: 500px) {
   .work-example #header {
-    font-size: 1.5em;
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .work-example #header {
+    font-size: 3em;
   }
 }
 .work-example #date {
   font-size: 0.75em;
   color: grey;
+}
+@media only screen and (max-width: 500px) {
+  .work-example #date {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .work-example #date {
+    font-size: 1.5em;
+  }
 }
 .work-example a {
   position: absolute;
@@ -147,7 +163,12 @@ body {
 }
 @media only screen and (max-width: 500px) {
   .work-example #text {
-    font-size: 0.75em;
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .work-example #text {
+    font-size: 1.5em;
   }
 }
 .work-example #quote {
@@ -159,7 +180,12 @@ body {
 }
 @media only screen and (max-width: 500px) {
   .work-example #quote {
-    font-size: 0.75em;
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .work-example #quote {
+    font-size: 1.5em;
   }
 }
 .work-example #list-header {
@@ -168,7 +194,12 @@ body {
 }
 @media only screen and (max-width: 500px) {
   .work-example #list-header {
-    font-size: 0.75em;
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .work-example #list-header {
+    font-size: 1.5em;
   }
 }
 .work-example ul {
@@ -177,7 +208,12 @@ body {
 }
 @media only screen and (max-width: 500px) {
   .work-example ul {
-    font-size: 0.75em;
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .work-example ul {
+    font-size: 1.5em;
   }
 }
 
