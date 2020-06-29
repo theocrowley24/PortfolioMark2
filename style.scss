@@ -8,6 +8,8 @@ $tabletThreshold: 1100px;
 $bgColour: rgb(20, 20, 20);
 $gridColour: rgb(25, 25, 25);
 $primaryColour: cyan;
+$smallTextSizeMobile: 1em;
+$largeTextSizeMobile: 2em;
 
 html {
     scroll-behavior: smooth;
@@ -145,26 +147,25 @@ body {
         color: $primaryColour;
         font-family: 'PT Serif', serif;
 
-        @media only screen and (max-width: $mobileThreshold) {
-            font-size: 2em; 
-        } 
-
         @media only screen and (max-width: $tabletThreshold) {
             font-size: 3em; 
         } 
-        
+
+        @media only screen and (max-width: $mobileThreshold) {
+            font-size: $largeTextSizeMobile; 
+        } 
     }
 
     #date {
         font-size: 0.75em;
         color: grey;
 
-        @media only screen and (max-width: $mobileThreshold) {
+        @media only screen and (max-width: $tabletThreshold) {
             font-size: 1.5em; 
         } 
 
-        @media only screen and (max-width: $tabletThreshold) {
-            font-size: 1.5em; 
+        @media only screen and (max-width: $mobileThreshold) {
+            font-size: $smallTextSizeMobile; 
         } 
     }
 
@@ -180,13 +181,13 @@ body {
         color: white;
         max-width: 70%;
 
-        @media only screen and (max-width: $mobileThreshold) {
-            font-size: 1.5em; 
-        } 
-
         @media only screen and (max-width: $tabletThreshold) {
             font-size: 1.5em; 
         } 
+
+        @media only screen and (max-width: $mobileThreshold) {
+            font-size: $smallTextSizeMobile; 
+        }         
     }
 
     #quote {
@@ -197,39 +198,45 @@ body {
 
         max-width: 70%;
 
-        @media only screen and (max-width: $mobileThreshold) {
-            font-size: 1.5em; 
-        } 
-
         @media only screen and (max-width: $tabletThreshold) {
             font-size: 1.5em; 
         } 
+
+        @media only screen and (max-width: $mobileThreshold) {
+            font-size: $smallTextSizeMobile; 
+        } 
+
+        
     }
 
     #list-header {
         font-size: 1em;
         color: white;
 
-        @media only screen and (max-width: $mobileThreshold) {
-            font-size: 1.5em; 
-        } 
-
         @media only screen and (max-width: $tabletThreshold) {
             font-size: 1.5em; 
         } 
+
+        @media only screen and (max-width: $mobileThreshold) {
+            font-size: $smallTextSizeMobile; 
+        } 
+
+        
     }
 
     ul {
         font-size: 1em;
         color: white;
 
-        @media only screen and (max-width: $mobileThreshold) {
-            font-size: 1.5em; 
-        } 
-
         @media only screen and (max-width: $tabletThreshold) {
             font-size: 1.5em; 
         } 
+
+        @media only screen and (max-width: $mobileThreshold) {
+            font-size: $smallTextSizeMobile; 
+        } 
+
+        
     }    
 }
 
