@@ -138,6 +138,28 @@ body {
     }
 }
 
+.work-links {
+    font-size: 1.5em;
+
+    @media only screen and (max-width: $tabletThreshold) {
+        font-size: 2em; 
+    } 
+
+    @media only screen and (max-width: $mobileThreshold) {
+        font-size: 1.5em; 
+    } 
+
+    p {
+        color: white;
+        
+    }
+
+    a {
+        color: $primaryColour;
+        font-family: 'PT Serif', serif;
+    }
+}
+
 .work-example {
     font-family: 'Montserrat', sans-serif;
     max-width: 85vw;
